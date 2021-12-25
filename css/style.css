@@ -29,7 +29,9 @@ img {
 .card .card__profile {
   display: flex;
   align-items: center;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem; 
+  position: relative;
+  z-index: 30;}
 
 .card__profile .profile-img {
   margin-right: 1rem;
